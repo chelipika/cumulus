@@ -1,0 +1,11 @@
+# config.py.example
+APP_LIBRARY = {
+    "calculator": "calc.exe",  # Windows default
+    "notepad": "notepad.exe",  # Windows default
+    # "chrome": "C:\\Path\\To\\Google\\Chrome\\Application\\chrome.exe",  Update with your Chrome path
+    # "minecraft": "C:\\Path\\To\\Minecraft\\Launcher\\Launcher.exe",  Update with your Minecraft path
+    # "discord": "C:\\Path\\To\\Discord\\Update.exe --processStart Discord.exe",  Update with your Discord path
+    # "vscode": "C:\\Path\\To\\Microsoft VS Code\\Code.exe",  Update with your VS Code path
+}
+# Other configurations like API keys should ideally be handled via environment variables
+# or a separate .env file that is also .gitignored.
